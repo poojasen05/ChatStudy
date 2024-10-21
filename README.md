@@ -102,7 +102,7 @@ s.connect(('localhost',8000))
 while True:    
     print(s.recv(1024).decode()) 
     s.send("acknowledgement recived from the server".encode())  
-    ~~~
+~~~
     ## OUTPUT:
     ![Screenshot 2024-10-14 155042](https://github.com/user-attachments/assets/e7ad3b4b-6352-42fc-bc9d-851dd527e81f)
 
